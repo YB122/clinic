@@ -161,7 +161,7 @@ Contributions are welcome! If you'd like to improve this project:
 
 ## 📄 License
 
-This project is open source and available under the [Clinic](https://yb122.github.io/Clinic/).
+This project is open source and available under the [Clinic](https://clinic-indol.vercel.app/).
 
 ## 👨‍💻 Author
 
