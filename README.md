@@ -9,58 +9,51 @@ This project represents the culmination of the first week in the NTI Open Source
 ## ✨ Key Features
 
 ### Core Functionality
-- **Responsive Navigation**: Fixed navigation bar with dropdown menus and smooth hover animations
-- **Hero Section**: Compelling hero area with healthcare statistics (15+ years experience, 5000+ patients treated, 50+ medical experts)
-- **Department Showcase**: Featured medical departments with visual cards and hover effects
-- **Doctor Profiles**: Interactive doctor cards with availability status indicators (online/busy/offline)
-- **Service Listings**: Comprehensive medical services presentation
-- **Consultation Gallery**: Image gallery with overlay effects showcasing healthcare facilities
-- **Emergency Contact**: Prominent call-to-action for emergency medical assistance
-- **Footer**: Multi-column footer with contact information and site navigation
+- **Glassmorphism Navigation**: Modern fixed navbar with `backdrop-filter` blur effects, pulsing medical icon, and smooth underline animations.
+- **Hero Section**: Compelling hero area with interactive "Stat-Cards" and a floating doctor image for dynamic visual appeal.
+- **Internal Navigation**: Seamless single-page navigation with smooth scrolling to sections (About, Departments, Services, Doctors, Contact).
+- **Interactive Profiles**: Doctor cards with real-time availability status indicators (pulsing green for online).
+- **Premium Footer**: Professionally categorized multi-column footer with integrated social media icons and accessibility labels.
 
 ### Technical Highlights
-- **Fully Responsive**: Mobile-first design approach ensuring compatibility across all devices
-- **Custom Animations**: Smooth CSS transitions and transform effects on interactive elements
-- **Modern Typography**: Integration of Google Fonts (Montserrat, Roboto, Lato)
-- **Icon Integration**: Font Awesome icons for enhanced visual communication
-- **Optimized Images**: WebP format for improved performance
-- **CSS Custom Properties**: Maintainable color scheme using CSS variables
+- **CSS-Only Interactivity**: 100% JavaScript-free animations, transitions, and hover effects using pure CSS @keyframes.
+- **Custom Design System**: Unified look and feel through centralized CSS variables for colors, shadows, and transitions.
+- **Premium Typography**: Specialized font pairings (Montserrat for headings, Roboto for body) for a modern medical aesthetic.
 
 ## 🛠️ Technologies Used
 
-- **HTML5**: Semantic markup for accessibility and SEO
-- **CSS3**: Advanced styling with custom properties, flexbox, and grid
-- **Bootstrap 5.x**: Responsive framework for rapid development
-- **Font Awesome**: Icon library for UI enhancement
-- **Google Fonts**: Custom typography (Montserrat, Roboto, Lato)
+- **HTML5**: Semantic and accessible markup.
+- **CSS3**: Advanced styling with Flexbox, CSS Variables, and Glassmorphism.
+- **Bootstrap 5.3**: Latest responsive framework for a solid structural foundation.
+- **Font Awesome 6**: Updated icon library for high-quality visuals.
 
 ## 📁 Project Structure
 
 ```
-project-root/
-├── index.html          # Main HTML file
+clinic/
+├── index.html          # Main entry point
 ├── css/
-│   ├── bootstrap.min.css    # Bootstrap framework
-│   ├── all.min.css          # Font Awesome icons
-│   └── main.css             # Custom styles
-├── images/             # Image assets (WebP format)
-└── README.md           # Project documentation
+│   ├── bootstrap.min.css
+│   ├── all.min.css      # Font Awesome
+│   └── main.css         # Custom Premium Styles
+├── js/
+│   └── main.js          # Intentionally empty (CSS-only project)
+├── images/             # Optimized medical assets
+└── README.md
 ```
 
 ## 🎨 Design Features
 
-### Color Scheme
-- Primary: `#165cdd` (Professional medical blue)
-- Secondary: `#112344` (Deep navy)
-- Background: `#fcfdfe` (Clean white)
-- Accent: `#bcbfc3` (Subtle gray)
+### Color Scheme (Premium Palette)
+- **Primary Blue**: `#0d6efd` (Trustworthy medical primary)
+- **Dark Indigo**: `#0046b3` (Professional secondary)
+- **Soft Background**: `#f1f4f9` (Clean, clinic-feel background)
+- **Text Main**: `#112344` (High-contrast readability)
 
 ### Key Design Patterns
-- **Hover Effects**: Scale transformations on images and cards
-- **Underline Animations**: Dynamic underline on navigation items
-- **Status Indicators**: Color-coded availability badges for doctors
-- **Shadow Effects**: Depth perception through strategic shadow usage
-- **Spacing System**: Consistent padding and margin ratios
+- **Glassmorphism**: Applied to the navbar for a state-of-the-art UI feel.
+- **Micro-animations**: Subtle scale and rotation effects on feature icons and social links.
+- **Shadow System**: Tiered shadow system (`--shadow-sm` to `--shadow-lg`) for professional depth.
 
 ## 🚀 Getting Started
 
@@ -103,10 +96,10 @@ project-root/
 Edit CSS custom properties in `main.css`:
 ```css
 :root {
-  --main-color: #165cdd;      /* Primary brand color */
-  --second-color: #112344;    /* Secondary color */
-  --back-color: #fcfdfe;      /* Background color */
-  --other-color: #bcbfc3;     /* Accent color */
+  --main-color: #0d6efd;      /* Primary brand color */
+  --second-color: #0046b3;    /* Secondary color */
+  --back-color: #f1f4f9;      /* Background color */
+  --text-main: #112344;       /* Main text color */
 }
 ```
 

@@ -16,11 +16,12 @@
   </head>
   <body>
     <!-- Nav Bar -->
-    <nav class="shadow navbar navbar-expand-lg position-fixed w-100 z-3">
+    <nav class="shadow navbar navbar-expand-lg position-fixed w-100 z-3 py-3">
       <div class="container">
-        <a class="navbar-brand text-dark fs-1 Montserratfont" href="#"
-          >Clinic</a
-        >
+        <a class="navbar-brand text-dark fs-2 Montserratfont fw-bolder d-flex align-items-center" href="#">
+          <i class="fa-solid fa-house-medical text-primary me-2"></i>
+          Clinic
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -33,10 +34,10 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 latofont">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 latofont align-items-center">
             <li class="nav-item mymain">
               <a
-                class="nav-link active text-primary p-3"
+                class="nav-link active text-primary px-3"
                 id="my-home"
                 aria-current="page"
                 href="#"
@@ -44,59 +45,24 @@
               >
             </li>
             <li class="nav-item mymain">
-              <a class="nav-link p-3" href="#">About</a>
+              <a class="nav-link px-3" href="#about">About</a>
             </li>
             <li class="nav-item mymain">
-              <a class="nav-link p-3" href="#">Departments</a>
+              <a class="nav-link px-3" href="#departments">Departments</a>
             </li>
             <li class="nav-item mymain">
-              <a class="nav-link p-3" href="#">Services</a>
+              <a class="nav-link px-3" href="#services">Services</a>
             </li>
             <li class="nav-item mymain">
-              <a class="nav-link p-3" href="#">Doctors</a>
+              <a class="nav-link px-3" href="#doctors">Doctors</a>
             </li>
-            <li class="nav-item dropdown p-2 mymain">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
+            <li class="nav-item mymain">
+              <a class="nav-link px-3" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a href="#" class="btn btn-primary btn-sm rounded- pill px-4 py-2 mt-2 mt-lg-0">
+                Book Appointment
               </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown p-2 mymain">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-              </ul>
-            </li>
-            <li class="nav-item mymain">
-              <a class="nav-link p-3" href="#">Contact</a>
             </li>
           </ul>
         </div>
@@ -116,29 +82,39 @@
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
               enim ad minim veniam, quis nostrud exercitation.
             </p>
-            <div class="numberdata row pb-5 justify-content-start flex-row">
-              <div class="years col-4">
-                <span class="fs-1 Montserratfont">15+</span>Years Experience
+            <div class="numberdata row pb-5 justify-content-start flex-row g-4">
+              <div class="years col-md-4">
+                <div class="stat-card">
+                  <span class="Montserratfont">15+</span>
+                  <small>Years Experience</small>
+                </div>
               </div>
-              <div class="patients col-4">
-                <span class="fs-1 Montserratfont">5000+</span>Patients Treated
+              <div class="patients col-md-4">
+                <div class="stat-card">
+                  <span class="Montserratfont">5000+</span>
+                  <small>Patients Treated</small>
+                </div>
               </div>
-              <div class="medical col-4">
-                <span class="fs-1 Montserratfont">50+</span>Medical Experts
+              <div class="medical col-md-4">
+                <div class="stat-card">
+                  <span class="Montserratfont">50+</span>
+                  <small>Medical Experts</small>
+                </div>
               </div>
             </div>
-            <div class="button pb-5">
+            <div class="button pb-5 d-flex gap-3 flex-wrap">
               <button
-                class="btn btn-primary rounded-5 p-3 fw-bold px-4"
+                class="btn btn-primary btn-lg shadow-sm"
                 type="button"
               >
                 Book Appointment
               </button>
               <button
                 type="button"
-                class="btn btn-outline-primary fw-bold px-4 rounded-5 p-3"
+                class="btn btn-outline-primary btn-lg d-flex align-items-center gap-2"
               >
-                <i class="fa-solid fa-circle-play"></i>Watch Our Story
+                <i class="fa-solid fa-circle-play fa-lg"></i>
+                Watch Our Story
               </button>
             </div>
             <div
@@ -207,8 +183,8 @@
 
     <!-- buttonreturn -->
 
-    <!-- Advanced Medicine -->
-    <div class="AdvancedMedicine my-5 pb-5 ">
+    <!-- Advanced Medicine (About) -->
+    <div id="about" class="AdvancedMedicine my-5 pb-5 ">
       <div class="container">
         <div class="row">
           <div class="para col-lg-6 g-5">
@@ -278,8 +254,8 @@
       </div>
     </div>
 
-    <!-- Featured -->
-    <div class="Featured py-5">
+    <!-- Featured (Departments) -->
+    <div id="departments" class="Featured py-5">
       <div class="container lh-lg">
         <div class="FeaturedDepartments text-center">
           <h2 class="position-relative Montserratfont">Featured Departments</h2>
@@ -599,7 +575,7 @@
     </div>
 
     <!-- Services -->
-    <div class="Services py-5">
+    <div id="services" class="Services py-5">
       <div class="container lh-lg">
         <div class="FeaturedServices text-center">
           <h2 class="position-relative Montserratfont">Featured Services</h2>
@@ -759,7 +735,7 @@
     </div>
 
     <!-- Doctor -->
-    <div class="Doctor py-5 mt-5">
+    <div id="doctors" class="Doctor py-5 mt-5">
       <div class="container lh-lg">
         <div class="FeaturedDoctor text-center">
           <h2 class="position-relative Montserratfont">Featured Services</h2>
@@ -1155,58 +1131,43 @@
       <div class="container">
         <div class="row">
           <div class="child001 child000 col-lg-4 text-center text-lg-start">
-            <div class="card border border-0">
+            <div class="card border border-0 h-100">
               <div class="card-body">
-                <i
-                  class="fa-solid fa-check-to-slot fa-2xl fs-1 mb-4"
-                  style="color: #165cdd"
-                ></i>
-                <h3
-                  class="card-subtitle my-3 Montserratfont text-body-secondary"
-                >
+                <i class="fa-solid fa-microchip fa-2xl fs-1 mb-4 text-primary"></i>
+                <h3 class="card-subtitle my-4 Montserratfont text-dark fw-bold">
                   Advanced Technology
                 </h3>
-                <p class="card-text">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                <p class="card-text text-secondary">
+                  Utilizing the latest medical equipment and diagnostic tools to provide 
+                  the most accurate and efficient healthcare solutions.
                 </p>
               </div>
             </div>
           </div>
           <div class="child002 child000 col-lg-4 text-center text-lg-start">
-            <div class="card border border-0">
+            <div class="card border border-0 h-100">
               <div class="card-body">
-                <i
-                  class="fa-solid fa-check-to-slot fa-2xl fs-1 mb-4"
-                  style="color: #165cdd"
-                ></i>
-                <h3
-                  class="card-subtitle Montserratfont my-3 text-body-secondary"
-                >
-                  Advanced Technology
+                <i class="fa-solid fa-user-doctor fa-2xl fs-1 mb-4 text-primary"></i>
+                <h3 class="card-subtitle Montserratfont my-4 text-dark fw-bold">
+                  Expert Doctors
                 </h3>
-                <p class="card-text">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                <p class="card-text text-secondary">
+                  Our team of world-class specialists brings years of experience and 
+                  unmatched expertise to every patient's care journey.
                 </p>
               </div>
             </div>
           </div>
           <div class="child003 child000 col-lg-4 text-center text-lg-start">
-            <div class="card border border-0">
+            <div class="card border border-0 h-100">
               <div class="card-body">
-                <i
-                  class="fa-solid fa-check-to-slot fa-2xl fs-1 mb-4"
-                  style="color: #165cdd"
-                ></i>
-                <h3
-                  class="card-subtitle Montserratfont my-3 text-body-secondary"
-                >
-                  Advanced Technology
+                <i class="fa-solid fa-clock-rotate-left fa-2xl fs-1 mb-4 text-primary"></i>
+                <h3 class="card-subtitle Montserratfont my-4 text-dark fw-bold">
+                  24/7 Support
                 </h3>
-                <p class="card-text">
-                  Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                  qui officia deserunt mollit anim id est laborum.
+                <p class="card-text text-secondary">
+                  Round-the-clock medical assistance and support services, ensuring 
+                  you have access to care whenever you need it most.
                 </p>
               </div>
             </div>
@@ -1248,159 +1209,66 @@
       </div>
     </div>
 
-    <!-- footer -->
-    <footer class="py-5">
-      <div class="container lh-lg">
-        <div class="row">
-          <div class="clinic col-lg-6 g-3 p-4">
-            <div class="contentclinic w-75">
-              <span class="Montserratfont">Clinic</span>
-              <p>
-                Crafting exceptional digital experiences through thoughtful
-                design and innovative solutions that elevate your brand
-                presence.
+    <!-- footer (Contact) -->
+    <footer id="contact" class="footer py-5 mt-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4">
+            <div class="footer-info">
+              <a class="navbar-brand text-dark fs-2 Montserratfont mb-3 d-block" href="#">Clinic</a>
+              <p class="text-secondary mb-4">
+                Providing exceptional healthcare with compassion and excellence. 
+                Our dedicated team of specialists is here to support your journey to wellness.
               </p>
-              <ul class="clinicul list-unstyled">
-                <li class="">
-                  <span
-                    ><i class="fa-solid fa-location-dot text-primary"></i></span
-                  >123 Creative Boulevard, Design District, NY 10012
-                </li>
-                <li class="">
-                  <span
-                    ><i class="fa-solid fa-location-dot text-primary"></i></span
-                  >+1 (555) 987-6543
-                </li>
-                <li class="">
-                  <span
-                    ><i class="fa-solid fa-location-dot text-primary"></i></span
-                  >hello@designstudio.com
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="moredetailes g-3 col-lg-6 row">
-            <div class="studio col-lg-3 col-6">
-              <h6>Studio</h6>
-              <div class="Studioa">
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-              </div>
-            </div>
-            <div class="studio col-lg-3 col-6">
-              <h6>Studio</h6>
-              <div class="Studioa">
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-              </div>
-            </div>
-            <div class="studio col-lg-3 col-6">
-              <h6>Studio</h6>
-              <div class="Studioa">
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-              </div>
-            </div>
-            <div class="studio col-lg-3 col-6">
-              <h6>Studio</h6>
-              <div class="Studioa">
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
-                <a
-                  href=""
-                  class="d-block text-decoration-none text-secondary fw-light"
-                  >Our Story</a
-                >
+              <div class="social-links d-flex gap-3">
+                <a href="#" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" title="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" title="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
               </div>
             </div>
           </div>
+          <div class="col-lg-2 col-md-4">
+            <h6 class="footer-title Montserratfont mb-4">Quick Links</h6>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Meet Doctors</a></li>
+              <li><a href="#">Latest News</a></li>
+              <li><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-2 col-md-4">
+            <h6 class="footer-title Montserratfont mb-4">Departments</h6>
+            <ul class="list-unstyled footer-links">
+              <li><a href="#">Cardiology</a></li>
+              <li><a href="#">Neurology</a></li>
+              <li><a href="#">Orthopedics</a></li>
+              <li><a href="#">Pediatrics</a></li>
+              <li><a href="#">Dermatology</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4 col-md-4">
+            <h6 class="footer-title Montserratfont mb-4">Contact Info</h6>
+            <ul class="list-unstyled footer-contact">
+              <li class="mb-3">
+                <i class="fa-solid fa-location-dot text-primary me-2"></i>
+                123 Creative Boulevard, Design District, NY 10012
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-phone text-primary me-2"></i>
+                +1 (555) 987-6543
+              </li>
+              <li class="mb-3">
+                <i class="fa-solid fa-envelope text-primary me-2"></i>
+                hello@designstudio.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="my-5 opacity-10">
+        <div class="footer-bottom text-center">
+          <p class="mb-0 text-secondary">&copy; 2026 Clinic Healthcare. All Rights Reserved.</p>
         </div>
       </div>
     </footer>
